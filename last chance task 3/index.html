@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: white;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0%;
+        padding: 30px;
+    }
+
+    .container {
+        display: flex;
+        background-color: rgb(138, 49, 49);
+        justify-content: center;
+        align-items: center;
+        gap: 20%;
+
+        /* height: 900px; */
+        max-width: 95vw;
+        margin: auto;
+        /* flex: 10000px; */
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%);
+    }
+.check{align-self: end;
+}
+    .left-colom {
+        flex: 1px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        /* gap: 0%; */
+
+    }
+
+    .left-colom h2 {
+        color: black;
+    }
+
+    .left-colom p {
+        color: black;
+        font-size: 12px;
+    }
+
+    .left-colom h1 {
+        font-size: 50px;
+    }
+
+    .right-colom {
+        display: flex;
+        flex-direction: column;
+        margin-right: 91px;
+        margin-top: 90px;
+    }
+
+    .up {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 425px;
+        height: px;
+    }
+
+    .up1 {
+        background-color: rgb(138, 49, 49);
+        border: 2px solid white;
+        height: 30px;
+    }
+
+    .down1 {
+        display: flex;
+
+    }
+
+    .style {
+        background-color: rgb(138, 49, 49);
+        color: white;
+        border: 2px solid white;
+        display: flex;
+        width: 420px;
+        height: 40px;
+    }
+
+    .stylea {
+        background-color: white;
+        /* margin-left: 1000px; */
+        width: 420px;
+        height: 40px;
+        margin: 20px;
+        padding: 0%;
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+        margin-left: 2PX;
+    }
+
+    .mid h2 {
+        color: black;
+    }
+</style>
+
+<body>
+
+
+    <img height="50px" src="logo.png" alt="">
+
+    <div class="container">
+        <div class="left-colom">
+            <h1>SUBMISSION</h1>
+            <P>All details of submissions will be capt private and confidential by Mailman and will be used for any
+                purpos other the judging Res Card 2018 winners.</P>
+            <input  class="check" type="checkbox">
+            <h2>Application will close on the 15th December 2017</h2>
+            <input class="check" type="checkbox">
+        </div>
+
+        <div class="right-colom">
+
+            <div class="up">
+                <input class="up1" type="text" placeholder="Name">
+                <input class="up1" type="text" placeholder="Email Addres">
+                 <input class="up1" type="text" placeholder="organization">
+            </div>
+
+            <div class="mid">
+                <h2>Which Award</h2>
+                <p>(Please tick and provide details for all of the awards you would like to be nominated for)</p>
+            </div>
+
+            <div class="down">
+                <div class="down1">
+
+                    <input type="checkbox" checked>
+                    <div>Best Livestremer</div>
+                    <input  type="checkbox">
+                </div>
+                <div class="down2">
+                    <input type="text" class="style" placeholder="Description & results (max. 150 words)">
+                </div>
+
+                <div class="down1">
+
+                    <input type="checkbox">
+                    <div>Best Livestremer</div>
+                    <input  type="checkbox">
+                </div>
+                <div class="down2">
+                    <input type="text" class="style" placeholder="Description & results (max. 150 words)">
+                </div>
+
+                <div class="down1">
+
+                    <input type="checkbox">
+                    <div>Best Livestremer</div>
+                    <input  type="checkbox">
+                </div>
+                <div class="down2">
+                    <input type="text" class="style" placeholder="Description & results (max. 150 words)">
+                </div>
+
+                <div class="down1">
+
+                    <input type="checkbox">
+                    <div>Best Livestremer</div>
+                    <input  type="checkbox">
+                </div>
+                <div class="down2">
+                    <input type="text" class="style" placeholder="Description & results (max. 150 words)">
+                </div>
+
+                <div class="down1">
+
+                    <input type="checkbox">
+                    <div>Best Livestremer</div>
+                    <input  type="checkbox">
+                </div>
+                <div class="down2">
+                    <input type="text" class="style" placeholder="Description & results (max. 150 words)">
+                </div>
+
+                <input type="text" class="stylea" placeholder="                 ✔  Submission   Successful">
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
